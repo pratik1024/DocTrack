@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         result.setText(String.valueOf("Sport..."));
     }
     public void button2(View view) {
-        result.setText(String.valueOf("Politics..."));
+        result.setText(String.valueOf("Politic.."));
     }
     public void button3(View view) {
         result.setText(String.valueOf("Education...."));
