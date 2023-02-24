@@ -1,15 +1,13 @@
 package com.example.doctrack;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-public class MainActivity extends AppCompatActivity {
-
+public class MainActivity2 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Write code to navigate to the new screen here
                 Intent intent;
-                intent = new Intent(MainActivity.this, MainActivity9.class);
+                intent = new Intent(MainActivity2.this, MainActivity9.class);
                 startActivity(intent);
             }
         });
@@ -31,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Write code to navigate to the new screen here
                 Intent intent;
-                intent = new Intent(MainActivity.this, MainActivity3.class);
+                intent = new Intent(MainActivity2.this, MainActivity3.class);
                 startActivity(intent);
             }
         });
