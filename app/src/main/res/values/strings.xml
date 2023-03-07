@@ -3,4 +3,5 @@
     <string name="user_id_number">User ID number</string>
     <string name="new_to_doctrack_sign_in_here">new to DocTrack ! Sign In here</string>
     <string name="password">Password</string>
+    <string name="name">Name</string>
 </resources>
