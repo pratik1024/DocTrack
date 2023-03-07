@@ -100,7 +100,7 @@
         android:layout_width="270dp"
         android:layout_height="60dp"
         android:layout_marginStart="13dp"
-        android:text="Next"
+        android:text="Next >>>"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
